@@ -10,7 +10,7 @@ namespace CollectionViewDemo
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Views.PublicationsView();
         }
 
         protected override void OnStart()
